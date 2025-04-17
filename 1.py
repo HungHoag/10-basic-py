@@ -1,0 +1,11 @@
+# Tính giai thừa
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input("Nhập số để tính giai thừa: "))
+if num < 0:
+    print("Số không được âm!")
+else:
+    print(f"Giai thừa của {num} là: {factorial(num)}")
