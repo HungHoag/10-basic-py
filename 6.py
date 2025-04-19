@@ -1,4 +1,4 @@
-# Đồng hồ đơn giản
+# Đồng hồ 
 import time
 import os
 
